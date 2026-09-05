@@ -1836,3 +1836,105 @@ footer {
         font-size: 0.75rem;
     }
 }
+
+@media (max-width: 768px) {
+
+    /* =========================
+       HEADER
+    ========================= */
+
+    header {
+        height: 65px;
+        padding: 0 15px;
+    }
+
+    .logo {
+        font-size: 1.15rem;
+        white-space: nowrap;
+    }
+
+    nav {
+        display: flex;
+        gap: 10px;
+        overflow-x: auto;
+        white-space: nowrap;
+        padding-bottom: 2px;
+    }
+
+    nav a {
+        font-size: 0.65rem;
+        white-space: nowrap;
+    }
+
+
+    /* =========================
+       RESULTADO DA SURPRESA
+    ========================= */
+
+    .resultado {
+        width: calc(100% - 40px);
+        max-width: 350px;
+        box-sizing: border-box;
+        margin: 40px auto 0;
+        padding: 30px 23px;
+        overflow: hidden;
+    }
+
+    .resultado .numero-arquivo {
+        display: block;
+        font-size: 0.8rem;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    .resultado h4 {
+        width: 100%;
+        max-width: 100%;
+        margin: 12px 0 20px;
+        font-size: 1.5rem;
+        line-height: 1.2;
+        text-align: center;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+
+    .resultado p {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        font-size: 0.95rem;
+        line-height: 1.65;
+        text-align: center;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        white-space: normal;
+    }
+
+    .resultado strong {
+        font-size: 0.85rem;
+    }
+
+
+    /* =========================
+       CAIXA DO BOTÃO
+    ========================= */
+
+    .escolher-arquivo {
+        width: calc(100% - 40px);
+        max-width: 350px;
+        box-sizing: border-box;
+        margin: 35px auto 0;
+    }
+
+    .escolher-arquivo p {
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+
+    .escolher-arquivo button {
+        max-width: 100%;
+        padding: 14px 22px;
+        font-size: 0.9rem;
+        box-sizing: border-box;
+    }
+}
